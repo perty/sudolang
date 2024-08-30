@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunt the Wumpus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #game-output {
+            white-space: pre-wrap;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            height: 200px;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+<h1>Hunt the Wumpus</h1>
+<div id="game-output"></div>
+<button onclick="gameLoop()">Start Game</button>
+
+<script src="HuntTheWumpus.js"></script>
+</body>
+</html>
