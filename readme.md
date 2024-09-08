@@ -25,5 +25,11 @@ randomly.
 
 I tried with writing the constraints explicitly, however, no luck.
 
+## Back to square one
 
+So, how does different approaches compare. And does the LLM matter? I decided to create a structured approach.
 
+The first test would be a simple free-text description of the game. I would compare the LLMs ChapGpt 4o and Claude 3.5
+Sonnet. Each LLM would both play the game and transpile the game into Java.
+
+Second test would be to use Sudolang to describe the game, taking the promise of pseudocode to the table.
